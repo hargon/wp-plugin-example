@@ -12,7 +12,7 @@ define('WP_PLUGIN_EXAMPLE_VERSION', '1.0');
 
 function wp_plugin_example_add_message_footer($content) {
     if (is_single()) {
-        return $content . '<p>Até logo leitor(a)!</p>';
+        return $content . '<p>Até logo leitor(a)! 2020</p>';
     }
 }
 
