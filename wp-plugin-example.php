@@ -18,8 +18,7 @@ function wp_plugin_example_add_message_footer($content) {
 
 add_filter('the_content', 'wp_plugin_example_add_message_footer');
 
-
-require_once 'plugin-update-checker/plugin-update-checker.php';
+require_once (dirname(dirname(__FILE__))) . '/plugin-update-checker/plugin-update-checker.php';
 
 
 /*
