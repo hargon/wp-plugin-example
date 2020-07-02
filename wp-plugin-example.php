@@ -3,12 +3,12 @@
  * Plugin Name: WP Plugin Example
  * Plugin URI: http://github.com/hargon/wp-plugin-example
  * Description: Adiciona um texto ao final do post.
- * Version: 1.0
+ * Version: 1.1
  * Author: Artur
  * Author URI: http://github.com/hargon
  */
 
-define('WP_PLUGIN_EXAMPLE_VERSION', '1.0');
+define('WP_PLUGIN_EXAMPLE_VERSION', '1.1');
 
 function wp_plugin_example_add_message_footer($content) {
     if (is_single()) {

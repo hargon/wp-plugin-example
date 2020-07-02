@@ -5,7 +5,7 @@ Tags: plugin para teste, mensagem no rodapé,
 Requires at least: 3.6.0
 Tested up to: 5.4
 Requires PHP: 5.1
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -36,6 +36,9 @@ Não disponível no momento.
 [https://github.com/hargon/wp_plugin_example//](https://github.com/hargon/wp_plugin_example//)
 
 == Changelog ==
+
+= 1.1 (April 02, 2020) =
+* Atualizado texto
 
 = 1.0 (April 01, 2020) =
 * Criada primeira versão
